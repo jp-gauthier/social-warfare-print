@@ -1,0 +1,4 @@
+#: SWP_Print.php:36
+#: SWP_Print.php:37
+msgid "Print"
+msgstr "Print"
