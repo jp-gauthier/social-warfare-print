@@ -1,7 +1,7 @@
 {
 	"name": "jp-gauthier/social-warfare-print",
 	"description": "Automatically add a print button to Social Warfare",
-	"type": "wordpress-plugin",
+	"keywords": ["wordpress", "plugin", "social warfare"],
 	"license": "GPL-2.0+",
 	"authors": [
 		{
@@ -9,32 +9,9 @@
 			"homepage": "https://jpgdev.com"
 		}
 	],
-	"config": {
-		"sort-packages": true
-	},
-	"repositories":[
-		{
-			"type": "composer",
-			"url": "https://github.com"
-		}
-	],
-	"minimum-stability": "dev",
-	"prefer-stable": true,
+	"type": "wordpress-plugin",
 	"require": {
 		"php": ">=5.6.0",
-		"composer/installers": "^1.2"
-	},
-	"require-dev": {
-	},
-	"autoload": {
-		"files": ["social-warfare-print.php"]
-	},
-	"autoload-dev": {
-	},
-	"extra": {
-	},
-	"replace": {
-	},
-	"scripts": {
+		"composer/installers": "^1.9"
 	}
 }
